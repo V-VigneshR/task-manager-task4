@@ -20,7 +20,12 @@
   ├── app.yml                 # Kubernetes app deployment
   ├── mongodb.yml             # Kubernetes MongoDB deployment
   └── docker-compose.yml      # Local testing (optional)
+
+
   ```
+
+## ARCHITECTURE
+![arch](Outputs/Architecture.png)
 
   ## Step 1: Prepare Your GitHub Repository
 
