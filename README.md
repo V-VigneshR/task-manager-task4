@@ -319,6 +319,14 @@ curl http://$LB_URL/api/v1/tasks
 └─────────────────┘
 ```
 
+## OUTPUT SCREENSHOTS
+
+![one](Outputs/one.png)
+![twos](Outputs/two.png)
+![three](Outputs/three.png)
+![four](Outputs/four.png)
+
+
 ## Troubleshooting
 
 ### Build Fails: "Dockerfile not found"
