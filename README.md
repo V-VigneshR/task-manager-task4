@@ -418,20 +418,20 @@ aws ecr delete-repository \
 
 ## Summary Checklist
 
-- [ ] GitHub repo has correct files (Dockerfile, buildspec.yml, app.yml, mongodb.yml)
-- [ ] Dockerfile is named exactly "Dockerfile" (case-sensitive)
-- [ ] app.yml has correct ECR image URL
-- [ ] CodePipeline created with GitHub source
-- [ ] CodeBuild project created with Privileged mode enabled
-- [ ] Environment variables set in CodeBuild
-- [ ] ECR permissions attached to CodeBuild role
-- [ ] Pipeline triggered and succeeded
-- [ ] Image visible in ECR
-- [ ] EKS cluster configured with kubectl
+-  GitHub repo has correct files (Dockerfile, buildspec.yml, app.yml, mongodb.yml)
+-  Dockerfile is named exactly "Dockerfile" (case-sensitive)
+-  app.yml has correct ECR image URL
+-  CodePipeline created with GitHub source
+-  CodeBuild project created with Privileged mode enabled
+-  Environment variables set in CodeBuild
+-  ECR permissions attached to CodeBuild role
+-  Pipeline triggered and succeeded
+-  Image visible in ECR
+-  EKS cluster configured with kubectl
 
 ## IN PROCESS:
-- [ ] MongoDB deployed to EKS
-- [ ] Application deployed to EKS
-- [ ] LoadBalancer URL accessible
-- [ ] API endpoints responding correctly
+-  MongoDB deployed to EKS
+-  Application deployed to EKS
+-  LoadBalancer URL accessible
+-  API endpoints responding correctly
 
