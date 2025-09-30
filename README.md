@@ -128,9 +128,9 @@
 
   **Image version:** Always use the latest image
 
-  **Environment type:** Linux
+  **Environment type:** Ubuntu
 
-  **Privileged:** ✅ **MUST BE CHECKED** (Required for Docker builds)
+  **Privileged:**  **MUST BE CHECKED** (Required for Docker builds)
 
   **Service role:** New service role
   ```
@@ -164,7 +164,7 @@
 
   ### 3.6 Deploy Stage
   ```
-  Skip deploy stage (we'll deploy manually to EKS)
+  Skipped deploy stage (deployed manually to EKS due to time constraints)
   ```
   Click "Skip"
 
@@ -439,19 +439,19 @@
 
   ## Summary Checklist
 
-  - [ ] GitHub repo has correct files (Dockerfile, buildspec.yml, app.yml, mongodb.yml)
-  - [ ] Dockerfile is named exactly "Dockerfile" (case-sensitive)
-  - [ ] app.yml has correct ECR image URL
-  - [ ] CodePipeline created with GitHub source
-  - [ ] CodeBuild project created with Privileged mode enabled
-  - [ ] Environment variables set in CodeBuild
-  - [ ] ECR permissions attached to CodeBuild role
-  - [ ] Pipeline triggered and succeeded
-  - [ ] Image visible in ECR
-  - [ ] EKS cluster configured with kubectl
-  - [ ] MongoDB deployed to EKS
-  - [ ] Application deployed to EKS
-  - [ ] LoadBalancer URL accessible
-  - [ ] API endpoints responding correctly
+  -  GitHub repo has correct files (Dockerfile, buildspec.yml, app.yml, mongodb.yml)
+  -  Dockerfile is named exactly "Dockerfile" (case-sensitive)
+  -  app.yml has correct ECR image URL
+  -  CodePipeline created with GitHub source
+  -  CodeBuild project created with Privileged mode enabled
+  -  Environment variables set in CodeBuild
+  -  ECR permissions attached to CodeBuild role
+  -  Pipeline triggered and succeeded
+  -  Image visible in ECR
+  -  EKS cluster configured with kubectl
+  -  MongoDB deployed to EKS
+  -  Application deployed to EKS
+  -  LoadBalancer URL accessible
+  -  API endpoints responding correctly
 
   FINALLY !
