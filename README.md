@@ -49,7 +49,7 @@
   ### 1.2 Update app.yml with correct ECR URL
   ```yaml
   # In app.yml, update the image URL:
-  image: 975050195505.dkr.ecr.us-east-1.amazonaws.com/task-manager-api:latest
+  image: ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/task-manager-api:latest
   ```
 
   ```bash
